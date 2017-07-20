@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 1000px;
+
+
+}
+
+.header {
+  width: 1000px;
+  height: 70px;
+  background-color: #0c4b33;
+  padding: 20px;
+  box-sizing: border-box;
+
+}
+
+.header ul {
+  display: inline-block;
+  margin-left: 200px;
+  vertical-align: top;
+
+}
+.header ul li{
+  display: inline-block;
+  color: white;
+  padding: 7px;
+  margin-bottom: 5px;
+}
+
+.header a {
+  color:white;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.topcontainer{
+  width: 1000px;
+  color: #0C3C26;
+  font-size: 40px;
+  text-align: center;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 100px;
+}
+
+#message{
+  margin-top: 100px;
+}
+
+#mainbutton{
+  background-color: #44B78B;
+  padding: 20px 40px;
+  color: white;
+  font-size: 18px;
+  border-radius: 10px;
+  margin-top: 50px;
+  border: none;
+}
+
+.left-b-container {
+  width: 641px;
+  padding: 35px;
+  display: inline-block;
+
+}
+
+#title {
+  font-size: 33px;
+  color: #0C3C26;
+  padding-bottom: 35px;
+  box-sizing: border-box;
+  font-family: "Roboto", Corbel, Avenir, "Lucida Grande", "Lucida Sans", sans-serif;
+}
+
+
+.left-b-container p {
+  color: #0C3C26;
+  font-size: 18px;
+  font-family: polotina;
+  line-height: 170%;
+  display: inline-block;
+  vertical-align: top;
+
+}
+/*this overide the previous class*/
+.left-b-container .subtitle {
+  font-size: 20px;
+}
+
+
+.left-text {
+  display: inline-block;
+  vertical-align: top;
+  width: 500px;
+}
+
+#button-left {
+  color:#859D94;
+  padding: 30px 60px;
+  border: 1px solid lightgray;
+  font-size: 18px;
+  background-color: white;
+  display: block;
+  margin: 50px auto 0 auto;
+
+}
+
+.right-container {
+  display: inline-block;
+  vertical-align: top;
+  background-color: #f8f8f8;
+  width: 281px;
+  text-align: center;
+
+}
+
+.right-container button{
+  background-color: #44B78B;
+  padding: 15px 50px;
+  color: white;
+  font-size: 18px;
+  border-radius: 10px;
+  margin: 50px 10px 10px 10px;
+  border: none;
+}
+
+.right-container a{
+  color:#44B78B;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.right-container p{
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: left;
+  margin-left: 10px;
+  margin-bottom: 15px;
+}
+.rightsub{
+  border-bottom: 1px solid gray;
+  width: 90%;
+  margin: 0 auto;
+}
+#otherbuttontext{
+  color: #C9F0DD;
+}
+
+.right2text{
+  display: inline-block;
+  width: 150px;
+}
+
+.right-container .right2text p{
+  font-size: 16px;
+  line-height: 125%;
+  color: #44B78B;
+}
+
+.right-container img {
+  vertical-align: top;
+  margin-top: 30px;
+}
+
+ #secondlink, #thirdlink{
+  font-size: 18px;
+  /*text-align: left; how to align link?*/
+}
+
+.news-text p {
+  font-size: 16px;
+}
